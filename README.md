@@ -3,8 +3,8 @@ Onprem Analytics Tool
 # npm install
 
 ## builds summary report
-npm run summary
-###possible environment variables
+npm run summary<br>
+possible environment variables<br>
 <b>MONGO_URI</b>(required) - mongo db endpoint including authentication if reuqired (default: mongodb://localhost)<br>
 <b>API_DB</b>(required) - mongo db api database (default: local) <br>
 <b>FROM_DATE</b> - in format of 2019-01-01 (default: 2019-01-01) <br>
@@ -13,8 +13,8 @@ npm run summary
 <b>SYSTEM_OVERVIEW</b> - export entire system instead of per account report (default: not passed). if using ACCOUNT_ID, SYSTEM_OVERVIEW doesn't have an affect<br>
 
 ## builds list report
-npm run list
-###possible environment variables
+npm run list<br>
+possible environment variables<br>
 <b>MONGO_URI</b>(required) - mongo db endpoint including authentication if reuqired (default: mongodb://localhost) <br>
 <b>API_DB</b>(required) - mongo db api database (default: local) <br>
 <b>FROM_DATE</b> - in format of 2019-01-01 (default: 2019-01-01) <br>
