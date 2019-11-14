@@ -1,9 +1,11 @@
-Onprem Analytics Tool
+#Onprem Analytics Tool
 
-# npm install
+1. npm install
+2. npm run summary
+3. npm run list
 
 ## builds summary report
-to execute run: npm run summary<br>
+this will generate a summary report regarding an aggregation of the builds<br><br>
 
 possible environment variables:<br>
 <b>MONGO_URI</b>(required) - mongo db endpoint including authentication if reuqired (default: mongodb://localhost)<br>
@@ -14,7 +16,7 @@ possible environment variables:<br>
 <b>SYSTEM_OVERVIEW</b> - export entire system instead of per account report (default: not passed). if using ACCOUNT_ID, SYSTEM_OVERVIEW doesn't have an affect<br>
 
 ## builds list report
-to execute run: npm run list<br>
+This will generate a table list of all builds<br><br>
 
 possible environment variables:<br>
 <b>MONGO_URI</b>(required) - mongo db endpoint including authentication if reuqired (default: mongodb://localhost) <br>
