@@ -5,7 +5,7 @@
 3. npm run list
 
 ## builds summary report
-this will generate a summary report regarding an aggregation of the builds<br><br>
+this will generate a summary report regarding an aggregation of the builds<br>
 
 possible environment variables:<br>
 <b>MONGO_URI</b>(required) - mongo db endpoint including authentication if reuqired (default: mongodb://localhost)<br>
@@ -16,7 +16,7 @@ possible environment variables:<br>
 <b>SYSTEM_OVERVIEW</b> - export entire system instead of per account report (default: not passed). if using ACCOUNT_ID, SYSTEM_OVERVIEW doesn't have an affect<br>
 
 ## builds list report
-This will generate a table list of all builds<br><br>
+This will generate a table list of all builds<br>
 
 possible environment variables:<br>
 <b>MONGO_URI</b>(required) - mongo db endpoint including authentication if reuqired (default: mongodb://localhost) <br>
