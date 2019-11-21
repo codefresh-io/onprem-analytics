@@ -1,4 +1,4 @@
 node_modules
 *.csv
-*.json
+Sum*.json
 .idea/

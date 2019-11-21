@@ -1,0 +1,17 @@
+{
+  "name": "onprem-analytics",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "summary": "node ./lib/mongo-builds-summary.js",
+    "list": "node ./lib/mongo-builds-list.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "json2csv": "^4.5.4",
+    "lodash": "^4.17.4",
+    "mongodb": "^3.3.4",
+    "table": "^5.4.6"
+  }
+}
