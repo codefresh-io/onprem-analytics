@@ -4,7 +4,7 @@
 2. npm run summary
 3. npm run list
 
-## builds summary report
+## builds summary report (npm run summary)
 this will generate a summary report regarding an aggregation of the builds<br>
 
 possible environment variables:<br>
@@ -15,7 +15,7 @@ possible environment variables:<br>
 <b>ACCOUNT_ID</b> - generate report only for a specific account id. mongo id string. if using ACCOUNT_ID, SYSTEM_OVERVIEW doesn't have an affect<br>
 <b>SYSTEM_OVERVIEW</b> - export entire system instead of per account report (default: not passed). if using ACCOUNT_ID, SYSTEM_OVERVIEW doesn't have an affect<br>
 
-## builds list report
+## builds list report (npm run list)
 This will generate a table list of all builds<br>
 
 possible environment variables:<br>
