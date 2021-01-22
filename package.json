@@ -8,7 +8,7 @@
     "list": "node ./lib/mongo-builds-list.js"
   },
   "dependencies": {
-    "bluebird": "^3.5.0",
+    "bluebird": "^3.7.2",
     "json2csv": "^4.5.4",
     "lodash": "^4.17.4",
     "mongodb": "^3.3.4",
