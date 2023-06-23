@@ -11,7 +11,7 @@
     "bluebird": "^3.5.0",
     "json2csv": "^4.5.4",
     "lodash": "^4.17.4",
-    "mongodb": "^3.3.4",
+    "mongodb": "^3.7.4",
     "table": "^5.4.6"
   }
 }
