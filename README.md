@@ -24,3 +24,14 @@ possible environment variables:<br>
 <b>FROM_DATE</b> - in format of 2019-01-01 (default: 2019-01-01) <br>
 <b>TO_DATE</b> - in format of 2019-01-01 (default: not passed => till latest) <br>
 <b>ACCOUNT_ID</b> - generate report only for a specific account id. mongo id string <br>
+
+
+## TLS
+
+Set as env variables; applicable to both scripts above.
+
+<b>TLS</b> — Enables or disables TLS/SSL for the connection — `"true"`/`"false"` (default: `"false"`)<br>
+<b>TLS_CA_FILE</b> — Location of a local .pem file that contains the root certificate chain from the Certificate Authority.<br>
+<b>TLS_CERT_FILE</b> — Location of a local TLS Certificate.<br>
+<b>TLS_CERT_KEY_FILE</b> — Location of a local .pem file that contains either the client's TLS/SSL certificate and key or only the client's TLS/SSL key when `TLS_CERT_FILE` is used to provide the certificate.<br>
+<b>TLS_CERT_KEY_FILE_PASSWORD</b> — Password to de-crypt the `TLS_CERT_KEY_FILE`.<br>
